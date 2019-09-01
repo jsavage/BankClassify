@@ -7,6 +7,7 @@ This code will classify each entry in your bank statement into categories such a
 ## How to use
 1. Install the required libraries:
   `pip install -r requirements.txt`
+  `or pip3 install -r requirements.txt`
 
 2. Run the code in `example.py` as a demonstration. This will interactively classify the example bank statement data in `Statement_Example.txt` and save the results in `AllData.csv`. In the interactive classification you will be presented with a list of categories (with ID numbers), the details of a transaction, and a guessed category. You have three choices:
    - To accept the guessed category, just press `Enter`
